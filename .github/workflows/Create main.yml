@@ -25,7 +25,7 @@ jobs:
 
     # Теперь то, что сгенерировалось в release, нужно закинуть в бранч gh-pages
     - name: Uploading files to gh-pages branch
-      uses: JamesIves/github-pages-deploy-action@4.4.1
+      uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
         branch: gh-pages
         folder: release/wwwroot
